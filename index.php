@@ -25,9 +25,9 @@ $film_Indian[$movie_title[2]]["name_of_the_actor_1"]="Karen Allen";
 $film_Indian[$movie_title[2]]["name_of_the_actor_2"]="Kate Capshaw";
 $film_Indian[$movie_title[2]]["name_of_the_actor_3"]="Paul Freeman";
 
-foreach ($film_Indian as $key =>$movie){
+foreach ($film_Indian as $film_title =>$actors){
     
-    echo "<hr>Dans le film $key , les principaux acteurs sont : ".$movie['name_of_the_actor_1'].", ".$movie['name_of_the_actor_2'].", ".$movie['name_of_the_actor_3'].".";
+    echo "<hr>Dans le film $film_title , les principaux acteurs sont : ".$actors['name_of_the_actor_1'].", ".$actors['name_of_the_actor_2'].", ".$actors['name_of_the_actor_3'].".";
     
 }
 
